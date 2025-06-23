@@ -128,7 +128,7 @@ def listen_and_respond():
 
 def get_weather(city="New York"):
     """Fetches weather information from OpenWeatherMap API."""
-    api_key = "c0f378c0b09443b135e67619577def77"  # Replace with a valid API key
+    api_key = "********************************"  # Replace with a valid API key
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     try:
         response = requests.get(url)
